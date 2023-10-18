@@ -44,7 +44,9 @@ Diretrizes para transformação dos dados
 13. Mescle os nomes de departamentos e localização. Isso fará que cada combinação departamento-local seja único. Isso irá auxiliar na criação do modelo estrela em um módulo futuro.
 
 14. Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir:
-explicação: Atribuir é usado quando se faz necessário o uso de cálculos ou adicionar valores calculados as tabelas,
+
+explicação: 
+Atribuir é usado quando se faz necessário o uso de cálculos ou adicionar valores calculados as tabelas,
 já o mesclar é utilizado quando se deseja combinar ou unir diferentes tabelas ou colunas com base em valores comum, criando uma nova coluna composta ou expandindo as informações, como as tasks de merge não envolvem cálculos mas sim a criação de uma nova representação de dados, o "mesclar" se faz mais apropriado.
 
 15. Agrupe os dados a fim de saber quantos colaboradores existem por gerente
